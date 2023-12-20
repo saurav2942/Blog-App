@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Blog = ({ data }) => {
   return (
@@ -28,6 +29,7 @@ const Blog = ({ data }) => {
     </div>
   );
 };
+
 
 
 const RTBlogs = ({blogs}) => {
