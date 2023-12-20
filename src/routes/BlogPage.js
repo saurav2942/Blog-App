@@ -64,7 +64,7 @@ const BlogPage = () => {
       setBlog(null);
       setBlogs([]);
     }
-  },[]);
+  },[params.blogId]);
 
   return (
     <>
